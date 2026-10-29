@@ -58,13 +58,23 @@ Delete functionality (owner-restricted)
 Endpoints
 
 /api/users/register/POSTCreate a new account
+
 /api/token/POSTLogin (returns JWT access/refresh tokens)
+
 /api/users/me/GET/PATCHView or update own profile
+
 /api/users/GETBrowse all users
+
 /api/meetings/GET/POSTList or schedule meetings
+
 /api/meetings/{id}/accept/PATCHAccept a meeting
+
 /api/meetings/{id}/reject/PATCHReject a meeting
+
 /api/documents/GET/POSTList or upload documents
+
 /api/documents/{id}/sign/PATCHAttach e-signature to a document
+
 ws://.../ws/call/{room_id}/WebSocketVideo call signaling
+
 
